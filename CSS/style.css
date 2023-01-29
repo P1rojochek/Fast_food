@@ -7,6 +7,11 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -61,4 +66,75 @@ h6 {
     justify-content: space-between;
     align-items: center;
     padding: 25px 0;
+}
+
+.logo {
+    height: 42px;
+    width: 52px;
+}
+
+.logo_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav_item {
+    margin-right: 28px;
+}
+
+.nav_item:last-child {
+    margin-right: 0px;
+}
+
+.nav_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+    border: none;
+    padding: 15px 36px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #F6762C;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content {
+    padding-top: 186px;
+    max-width: 49%;
+}
+
+.content_headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.18;
+
+}
+
+.hero_title {
+    margin-bottom: 30px;
+}
+
+.content_desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
 }

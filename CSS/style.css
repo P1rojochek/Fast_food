@@ -43,6 +43,7 @@ h6 {
 
 .wrapper {
     min-height: 100%;
+    background-color: #1C1C1C;
 }
 
 .container {
@@ -134,7 +135,59 @@ h6 {
 .content_desc {
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 42px;
+}
+
+.food {
+    padding: 115px 0px 102px;
+}
+
+.container {}
+
+.food_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_item {
+    width: calc(25% - 23px);
+}
+
+.dish {
+    overflow: hidden;
+    border-radius: 10px;
+    background: #312F30;
+}
+
+.dish_img-wrap {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.dish_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dish_desc {
+    padding: 28px 35px 30px;
+    text-align: center;
+}
+
+.dish_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
 }

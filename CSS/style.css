@@ -181,13 +181,83 @@ h6 {
 .dish_title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     margin-bottom: 13px;
 }
 
-.dish_text {
+.paragrav {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.dish_text {
+    margin-bottom: 13px;
+}
+
+.order {
+    background-color: #312f30;
+    padding: 73px 0px 80px;
+}
+
+.order_container {
+    display: flex;
+    align-items: center;
+}
+
+.container {}
+
+.orderimg-wrap {}
+
+.order_column {
+    width: 50%;
+}
+
+.order_img {}
+
+.order_desc {
+    line-height: 1.18;
+}
+
+.order_go-to-action {
+    max-width: 371px;
+    padding-left: 9%;
+}
+
+.go-to-action {}
+
+.call-to-action_title {
+    font-weight: 500;
+    font-size: 44px;
+
+}
+
+.order_go-to-action-title {
+    font-style: 44px;
+    margin-bottom: 24px;
+}
+
+.call-to-action_text {
+    margin-bottom: 13px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 11px;
+}
+
+.order_price {}
+
+.price_new {
+    color: rgba(246, 118, 44, 1);
+}
+
+.price_old {
+    color: rgba(246, 118, 44, 0.3);
+    text-decoration-line: line-through;
+}
+
+.btn {}
